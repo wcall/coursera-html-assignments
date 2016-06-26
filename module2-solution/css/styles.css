@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+section {
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black; /* Set a black border on both the section and section title region that is 1px thick. */
+	background-color: #CCCCCC;
+}
+
+/*
+ * Set the background color of each section title region to some unique color
+ */
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+
+}
+
