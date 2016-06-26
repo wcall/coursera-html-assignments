@@ -11,15 +11,44 @@ h1 {
 section {
 	float: left;
 	margin: 10px;
-	padding: 10px;
 	border: 1px solid black; /* Set a black border on both the section and section title region that is 1px thick. */
 	background-color: #CCCCCC;
+}
+
+div#container {
+	position: relative;
+	float: right;
+	clear: both;
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	width: 100px;
+}
+
+
+div.content {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /*
  * Set the background color of each section title region to some unique color
  */
+ div.chicken {
+ 	background-color: pink;
+ }
 
+div.beef {
+	background-color: red;
+	color: white;
+}
+
+div.sushi {
+	background-color: yellow;
+}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
