@@ -1,35 +1,40 @@
 * {
 	box-sizing: border-box;
 	padding: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 h1 {
 	text-align: center;
 	margin-bottom: 30px;
+	font-size: 1.75em;
 }
 
-section {
+div.section {
 	float: left;
-	margin: 10px;
+	margin-left: 1%;
+	margin-bottom: 1%;
 	border: 1px solid black; /* Set a black border on both the section and section title region that is 1px thick. */
 	background-color: #CCCCCC;
 }
 
-div#container {
+div.container {
 	position: relative;
 	float: right;
 	clear: both;
-	border: 1px solid black;
+	border: 1px solid black; /* Set a black border on both the section and section title region that is 1px thick. */
 	padding-left: 20px;
 	padding-right: 20px;
 	text-align: center;
 	width: 100px;
+	font-size: 1.25em;
 }
 
 
 div.content {
 	text-align: left;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -52,16 +57,25 @@ div.sushi {
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
-
+	div.section {
+		width: 32%;
+	}
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+	div#s3{
+		width: 98%;
+	}
+	div.section {
+		width: 48.5%;
+	}
 }
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
-
+	div.section {
+		width: 98%;
+	}
 }
 
